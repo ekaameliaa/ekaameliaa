@@ -1,0 +1,125 @@
+body {
+  font-family: "Merienda";
+  font-size: 15px;
+  background-color: rgb(229, 238, 248);
+  color: black;
+  margin: 0;
+  padding: 0;
+}
+main {
+  padding: 20px;
+}
+.jumbotron {
+  font-size: 20px;
+  padding: 60px;
+  background-color: #396d7a;
+  text-align: center;
+  color: white;
+  height: 250px;
+}
+nav li {
+  display: inline;
+  list-style-type: none;
+  margin-right: 20px;
+}
+nav {
+  background-color: #095161;
+  padding: 5px;
+  text-align: right;
+  position: fixed;
+  width: 100%;
+}
+nav a {
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+  color: white;
+}
+
+.sejarah {
+  font-size: 17px;
+  padding-top: 15px;
+}
+.sejarah img {
+  width: 100%;
+  height: 400px;
+}
+
+.kuliner1 {
+  overflow: auto;
+  font-size: 17px;
+  padding-top: 15px;
+}
+
+.kuliner1 img {
+  float: right;
+  width: 600px;
+  height: 300px;
+  margin: 15px;
+}
+
+.kuliner2 {
+  overflow: auto;
+  font-size: 17px;
+  padding-top: 15px;
+}
+
+.kuliner2 img {
+  float: left;
+  width: 600px;
+  height: 300px;
+  margin: 15px;
+}
+
+#senibudaya {
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.container {
+  display: flex;
+
+  /* Properti lainnya */
+  width: 1200px;
+  height: 450px;
+
+  font-size: 17px;
+}
+.container img {
+  width: 350px;
+  height: 200px;
+  padding-right: 15px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+#contact {
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.contact {
+  width: 40%;
+  padding: 20px;
+  margin: auto;
+  text-align: center;
+}
+
+.contact img {
+  height: 420px;
+  width: 400px;
+}
+
+footer {
+  background-color: #095161;
+  color: white;
+  padding: 5px;
+  text-align: center;
+  width: 100%;
+}

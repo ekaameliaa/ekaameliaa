@@ -1,0 +1,1 @@
+//document.getElementById("nav").innerHTML = alert("Apakah anda ingin menuju halaman tersebut?")
